@@ -157,6 +157,10 @@ img {
     color: #404BBF;
 }
 
+.active:active {
+    color: #404BBF;
+}
+
 .contacts {
     display: flex;
     margin-left: auto;
@@ -462,9 +466,11 @@ color: #434455;
     position: absolute;
     background-color: #4D5AE5;
     color: #F4F4FD;
-    padding-top: 40px;
-    padding-inline: 32px;
-    padding-bottom: 164px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    padding: 40px 32px;
     top: 0;
     left: 0;
     width: 100%;
